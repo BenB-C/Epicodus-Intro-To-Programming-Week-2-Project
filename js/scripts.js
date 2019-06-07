@@ -20,8 +20,8 @@ function randBetween(min, max) {
 // -----------------------------------------------------------------------------
 // User interface
 // -----------------------------------------------------------------------------
-var forgotNameInputClass = "bg-danger"
-var forgotNameOutputClass = "text-danger"
+var forgotNameClass = "red-border"
+
 $(function(){
   $("form#userInfo").submit(function(event) {
     // Prevent page from reloading
@@ -31,12 +31,12 @@ $(function(){
 
     if (!name) {
       name = "Too lazy to type in my name"
-      $("#nameInput").addClass(forgotNameInputClass);
+      $("#nameInput").addClass(forgotNameClass);
       $("#nameInput").effect("shake");
-      $("#nameOutput").addClass(forgotNameOutputClass);
+      $("#nameOutput").addClass(forgotNameClass);
     } else {
-      $("#nameInput").removeClass(forgotNameOutputClass);
-      $("#nameOutput").removeClass(forgotNameOutputClass);
+      $("#nameInput").removeClass(forgotNameClass);
+      $("#nameOutput").removeClass(forgotNameClass);
     }
     // Determine recommended language
     var iRandom = randBetween(0, languages.length);
@@ -51,6 +51,6 @@ $(function(){
   });
 
   $('#nameInput').on('focus', function(){
-    $(this).removeClass(forgotNameInputClass);
+    $(this).removeClass(forgotNameClass);
   });
 });
