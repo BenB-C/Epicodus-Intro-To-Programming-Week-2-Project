@@ -12,3 +12,7 @@
   border-color: red;
   border-width: 2px;
 }
+
+#suggestedLanguage {
+  font-size: 30pt;
+}

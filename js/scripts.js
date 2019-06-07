@@ -52,6 +52,11 @@ function getRecomendedLanguage(answers) {
   return recommendedLanguage;
 }
 
+// Return an anchor tag with a LMGTFY link for the given query
+function getLink(query) {
+  return '<a href="http://lmgtfy.com/?q=' + query + '" class="text-success">' + query + '</a>';
+}
+
 // -----------------------------------------------------------------------------
 // User interface
 // -----------------------------------------------------------------------------
@@ -79,11 +84,11 @@ $(function(){
       $("#nameOutput").removeClass(forgotNameClass);
     }
     // Determine recommended language and output result for user
-    var recommendedLanguage = getRecomendedLanguage(answers);
+    var recommendedLanguageLink = getLink(getRecomendedLanguage(answers));
     $("#nameOutput").empty();
     $("#nameOutput").text(name);
     $("#suggestedLanguage").empty();
-    $("#suggestedLanguage").text(recommendedLanguage);
+    $("#suggestedLanguage").html(recommendedLanguageLink);
     $("#output").show();
   });
 
