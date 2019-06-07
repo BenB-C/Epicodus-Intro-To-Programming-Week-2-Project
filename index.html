@@ -1,100 +1,148 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <meta charset="utf-8">
-    <title>Programming Language Suggester</title>
-  </head>
-  <body>
-    <div class="container">
-      <!-- User Info Form -->
-      <h1>Programming Language Suggester</h1>
-      <form id="userInfo">
-        <!-- Name -->
-        <div class="form-group row">
-          <label for="name" class="col-sm-2 col-form-label">Name:</label>
-          <div class="col-sm-10">
-            <input id="name" class="form-control" type="text" placeholder="Enter your name">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="utf-8">
+  <title>Programming Language Suggester</title>
+</head>
+<body>
+  <div class="container">
+    <!-- User Info Form -->
+    <h1>Programming Language Suggester</h1>
+    <form id="userInfo">
+      <!-- Name -->
+      <div class="form-group row">
+        <label for="name" class="col-sm-2 col-form-label">Name:</label>
+        <div class="col-sm-10">
+          <input id="name" class="form-control" type="text" placeholder="Enter your name">
+        </div>
+      </div>
+      <div class="row">
+        <!-- Question 1 -->
+        <div class="col-md-3">
+          <h2>I like... </h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="1" checked>
+              Pi&ntildea Coladas, and getting caught in the rain
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="2">
+              to eat, eat, eat apples and bananas
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="3">
+              it like that
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="4">
+              big butts and I can not lie
+            </label>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <!-- Radio Btn Group -->
-            <h2>Question 1</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="1" checked>
-                Option1
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" value="2">
-                Option2
-              </label>
-            </div>
+        <!-- Question 2 -->
+        <div class="col-md-3">
+          <h2>I love...</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="1" checked>
+              you baby
+            </label>
           </div>
-          <div class="col-md-3">
-            <!-- Radio Btn Group -->
-            <h2>Question 2</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="1" checked>
-                Option1
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question2" value="2">
-                Option2
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="2">
+              my dog
+            </label>
           </div>
-          <div class="col-md-3">
-            <!-- Radio Btn Group -->
-            <h2>Question 3</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="1" checked>
-                Option1
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question3" value="2">
-                Option2
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="3">
+              to love you baby
+            </label>
           </div>
-          <div class="col-md-3">
-            <!-- Radio Btn Group -->
-            <h2>Question 4</h2>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="1" checked>
-                Option1
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question4" value="2">
-                Option2
-              </label>
-            </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="4">
+              my shirt
+            </label>
           </div>
         </div>
-        <!-- Submit Button -->
-        <div id="submitBtn">
-          <button type="submit" class="btn btn-info">Suggest a Language</button>
+        <!-- Question 3 -->
+        <div class="col-md-3">
+          <h2>I would...</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="1" checked>
+              like to see it
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="2">
+              walk five hundred miles and I would walk five hundred more
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="3">
+              do anything for love
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="4">
+              die for you
+            </label>
+          </div>
         </div>
-      </form>
-      <div id="output">
-        <p> Hi <span id="userName"></span>, your suggested programming language is:
+        <!-- Question 4 -->
+        <div class="col-md-3">
+          <h2>I would never...</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="1" checked>
+              boca your child
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="2">
+              hurt you
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="3">
+              do that
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="4">
+              gif
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- Submit Button -->
+      <div id="submitBtn">
+        <button type="submit" class="btn btn-info">Suggest a Language</button>
+      </div>
+    </form>
+    <div id="output">
+      <p> Hi <span id="userName"></span>, your suggested programming language is:
         <h2 id="suggestedLanguage" class="text-success"></h2>
       </div>
     </div>
   </body>
-</html>
+  </html>
