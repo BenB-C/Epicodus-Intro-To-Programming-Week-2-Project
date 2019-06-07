@@ -16,3 +16,12 @@
 #suggestedLanguage {
   font-size: 30pt;
 }
+
+.pageHeading {
+  text-align: center;
+  padding: 15px;
+}
+
+.pageHeading img {
+  width: 50%;
+}
