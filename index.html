@@ -6,10 +6,52 @@
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Programming Language Suggester</title>
   </head>
   <body>
     <div class="container">
+      <!-- User Info Form -->
+      <h1>Programming Language Suggester</h1>
+      <form id="userInfo">
+        <!-- Name -->
+        <div class="form-group">
+          <input id="name" class="form-control" type="text" placeholder="Enter your name">
+        </div>
+        <!-- Radio Btn Group -->
+        <h2>Question 1</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="1" checked>
+            Option1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="2">
+            Option2
+          </label>
+        </div>
+        <!-- Radio Btn Group -->
+        <h2>Question 2</h2>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="1" checked>
+            Option1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="2">
+            Option2
+          </label>
+        </div>
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-info">Suggest a Language</button>
+      </form>
+      <div>
+        <h2>Suggested Programming Language:</h2>
+        <p id="suggestedLanguage">COBOL</p>
+      </div>
 
     </div>
   </body>
