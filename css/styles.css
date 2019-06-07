@@ -25,3 +25,16 @@
 .pageHeading img {
   width: 50%;
 }
+
+
+tr {
+  vertical-align: text-top;
+}
+
+td {
+  padding: 0;
+}
+
+td:first-child {
+  padding-right: 15px;
+}
