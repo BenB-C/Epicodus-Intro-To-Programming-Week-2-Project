@@ -1,37 +1,62 @@
-# _{Application Name}_
+# _Programming Language Suggester_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A webpage for people interested in coding to decide which language they should learn first, 2019.06.07_
 
-#### By _**{List of contributors}**_
+#### By _**Ben Bennett-Cauchon**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a language suggestion based on their answers. The questions asked are silly and irrelevant and roughly half the time a random language is suggested regardless of the answers chosen._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _The webpage does not have any special setup or installation requirements_
+* _It can be seen on GitHub pages at: [benjbc.github.io/epicodus-project-week2/](https://benjbc.github.io/epicodus-project-week2/)_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_None_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you run into any issues or have questions, ideas or concerns please contact me at bbennettcauchon@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_CSS, HTML, and Bootstrap:_
+* _container_
+* _grid layout_
+* _form_
+* _text input_
+* _radio button input_
+* _button_
+* _table_
+* _vertical-align_
+
+_JavaScript:_
+* _functions_
+* _arrays_
+* _control statements/branching_
+* _for loops_
+* _parseInt()_
+
+_jQuery:_
+* _.show()_
+* _.addClass()_
+* _.removeClass()_
+* _.empty()_
+* _.text()_
+* _.html()_
+* _.effect()_
+* _.submit()_
+* _.on()_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Copyright 2019 Ben Bennett-Cauchon*
 
-Copyright (c) 2019 **_{List of contributors or company name}_**
+*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:*
+
+*The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*
+
+*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*

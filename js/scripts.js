@@ -92,7 +92,12 @@ $(function(){
     $("#output").show();
   });
 
-  $('#nameInput').on('focus', function(){
+  $("#nameInput").on("focus", function() {
     $(this).removeClass(forgotNameClass);
+    $("#output").hide();
+  });
+
+  $("input:radio").on("change", function() {
+    $("#output").hide();
   });
 });
