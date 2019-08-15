@@ -10,8 +10,8 @@ _A Programming Language Suggester webpage (using HTML, CSS, JavaScript and jQuer
 
 ## Setup/Installation Requirements
 
-* _The webpage does not have any special setup or installation requirements_
-* _It can be seen on GitHub pages at: [benjbc.github.io/epicodus-project-week2/](https://benjbc.github.io/epicodus-project-week2/)_
+* The webpage does not have any special setup or installation requirements
+* It can be seen on GitHub pages at: https://benb-c.github.io/Epicodus-Intro-To-Programming-Week-2/
 
 ## Known Bugs
 
